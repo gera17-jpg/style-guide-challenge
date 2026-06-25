@@ -1,0 +1,100 @@
+:root{
+  --col1: #2d5dcc;  /*Cool Blue*/
+  --col2: #d957d9; /*pink*/
+  --col3: #4fe0b0; /*mint green*/
+  --col4: #4fe0b0; /*biege*/
+  --scp:"source code pro"; /*source code pro*/
+  /*--scp_bold: bold "source code pro";
+  --scp_italic: italic "source code pro";*/
+  --nns: "nunito sans";
+  --pop:"poppins";
+}
+
+*{
+  margin:0;
+  color:white;
+}
+h1.main,section{
+  margin:10px 20px;
+}
+
+h2{
+  margin:20px 0;
+}
+section{
+  border:1px solid white;
+
+}
+
+.main_container{
+  margin-left:30px;
+}
+
+.color_container{
+  width:25%;
+  margin:15px 0;
+  display:inline-block;
+  justify-content:space-between;
+  color:white;
+  padding:10px 20px;
+}
+
+.blue{
+  background-color:var(--col1);
+}
+
+.pink{
+  background-color:var(--col2);
+}
+
+.green{
+  background-color:var(--col3);
+}
+
+.beige{
+  background-color:var(--col4);
+}
+
+.p_container{
+  margin:15px 15px 15px;
+  display:inline-block;
+}
+
+.p_container p{
+  line-height:25px;
+}
+.p_container h3{
+  text-decoration:underline;
+  margin-bottom:20px;
+}
+
+.scp{
+  font-family:var(--scp);
+}
+.esa,.one,.uno{
+  font-weight:200;
+}
+
+.duwa,.two,.dos{
+  font-weight:bold;
+}
+
+.tulo,.three,.tres{
+  font-style:italic;
+}
+
+.nns{
+  font-family:var(--nns);
+}
+
+.pop{
+  font-family:var(--pop);
+}
+
+ul{
+  margin-bottom:20px;
+}
+
+.text{
+  margin-bottom:10px;
+}
